@@ -1,0 +1,72 @@
+# CMake
+build/
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Build outputs
+bin/
+lib/
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Qt Creator
+*.autosave
+*.user
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Compiled Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.out
+*.app
+visification
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db

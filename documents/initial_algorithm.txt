@@ -1,0 +1,7 @@
+Assume that all robots are fixed in their location on the corresponding segments inside the polygon. We do the following steps in order to make the current state:
+
+1. Draw all the windows of the robots: we can first find the visibility polygon of the robot, and then find the segment of the resulting polygon in which one of its end points does not belong the vertices of the polygon.
+
+2. Compute the intersection points the windows (line segments) calculated from step 1: the algorithm for computing the intersection point of the two given line segments may be found at http://stackoverflow.com/questions/563198/how-do-you-detect-where-two-line-segments-intersect.
+
+3. Computing the dual graph of the resulting subdivision from step 2: Let Sub_P be a subdivision of P (computed in step 2). The dual graph of Sub_P that is represented by DG(Sub_P) is a graph which has a node corresponding to each cell, and each pair of nodes are connected with an edge, if their related cells have an edge in common.
