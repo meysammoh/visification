@@ -1,3 +1,5 @@
+> **⚠️ Archived Project (2015)** — This is a historical portfolio piece, not actively maintained. Not recommended for forking or production use.
+
 # Visification - Multi-Robot Visibility-Based Path Planning (2015)
 
 A computational geometry research project implementing visibility-based path planning algorithms for multiple robots navigating in a polygonal environment.
